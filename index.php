@@ -273,7 +273,7 @@
 			<!--END: Footer Nav-->
 			
 			<!--Branding & Web Design Credit -->
-			<article class="credit"><h1><a href="http://www.mimoymima.com" title="branding for startups - web design brooklyn">&copy; &infin; condensed.io</a></h1></article>
+			<article class="credit"><h1><a href="http://www.condensed.io" title="branding for startups - web design brooklyn">&copy; &infin; condensed.io</a></h1></article>
 
             <script type='text/javascript' src='/js/functions.js?ver=1.2'></script>
 
