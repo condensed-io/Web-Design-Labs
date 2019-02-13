@@ -66,14 +66,14 @@
 	<!--To make the menu vertical instead of horizontal remove the menu_class of horiz-list-->
 	<!-- <nav class="nav-main" role="navigation">
 		<h1 class="access-hide">Main Navigation</h1>
-		<div class="menu-footernav-container"><ul id="menu-footernav" class="horiz-list"><li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="mailto:brent@mimoymima.com">contact</a></li>
+		<div class="menu-footernav-container"><ul id="menu-footernav" class="horiz-list"><li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="mailto:brent@condensed.io">contact</a></li>
 </ul></div>	</nav> -->
 
 <!--BEGIN: Home Section-->
 <article class="white-area coming-soon">
 	<div class="row">
 		
-		<a href="http://mimoymima.com" class="mYm">
+		<a href="http://condensed.io" class="mYm">
 			<div class="logo-container">
 				<svg 
                      version="1.1"
@@ -266,14 +266,14 @@
 			<nav role="navigation">
 				<h1 class="access-hide">Footer Navigation</h1>
 				<div class="menu-footernav-container">
-                    <ul id="menu-footernav-1" class="nav-footer"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="mailto:brent@mimoymima.com">contact</a></li>
+                    <ul id="menu-footernav-1" class="nav-footer"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="//condensed.io/contact/">contact</a></li>
                     </ul>
                 </div>
             </nav>
 			<!--END: Footer Nav-->
 			
 			<!--BEGIN: Credits :: Web Design Credit -->
-			<article class="credit"><h1><a href="http://www.mimoymima.com" title="web design brooklyn">&copy; 2019 mimoYmima.com</a></h1></article>
+			<article class="credit"><h1><a href="http://www.mimoymima.com" title="web design brooklyn">&copy; &#8734; condensed.io</a></h1></article>
 			<!--END: Credits-->
 
             <script type='text/javascript' src='/js/functions.js?ver=1.2'></script>
