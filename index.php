@@ -272,9 +272,8 @@
             </nav>
 			<!--END: Footer Nav-->
 			
-			<!--BEGIN: Credits :: Web Design Credit -->
-			<article class="credit"><h1><a href="http://www.mimoymima.com" title="web design brooklyn">&copy; &#8734; condensed.io</a></h1></article>
-			<!--END: Credits-->
+			<!--Branding & Web Design Credit -->
+			<article class="credit"><h1><a href="http://www.mimoymima.com" title="branding for startups - web design brooklyn">&copy; &infin; condensed.io</a></h1></article>
 
             <script type='text/javascript' src='/js/functions.js?ver=1.2'></script>
 
