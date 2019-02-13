@@ -284,9 +284,5 @@
 	</footer>
 	<!--END: Footer Section-->
 
-	<!--Javascript Indicator-->
-	<div class="js-ind indicator"><a href="http://www.mimoymima.com/help/turning-javascript-on-and-off/" title="You don't have javascript enabled, click here to learn more.">Enable Javascript</a></div>
-	<!--Javascript Indicator-->
-
 </body>
 </html>
