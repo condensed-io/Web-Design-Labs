@@ -31,10 +31,10 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
                 flex: 1 1 auto;
                 padding: 0 2em;
                 @include breakpoint(laptop){
-                    padding: 0 20%;
+                    padding: 0 10%;
                 }
                 @include breakpoint(desktop){
-                    padding: 0 30%;
+                    padding: 0 20%;
                 }
             }
 			.condensed {
