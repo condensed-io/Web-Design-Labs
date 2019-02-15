@@ -26,7 +26,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_base.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/_colors.scss": {
@@ -39,7 +39,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_colors.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/_forms.scss": {
@@ -52,7 +52,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_forms.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/_mixins.scss": {
@@ -65,7 +65,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_mixins.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/_pages.scss": {
@@ -78,7 +78,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_pages.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/_site.scss": {
@@ -91,7 +91,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_site.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/_type.scss": {
@@ -104,7 +104,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_type.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/style.css": {
@@ -127,7 +127,7 @@
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 0,
-		"oS": 2,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/files\/curriculum_wdl_13.pdf": {
@@ -2138,7 +2138,7 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 2,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 1

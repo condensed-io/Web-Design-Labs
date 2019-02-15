@@ -16,18 +16,6 @@
 	}
 
 
-//::: DEFINE FONT FAMILIES ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-// These mixins makes it easy to add font to elements in your stylesheets, change them to your liking :D
-	
-	@mixin sans() {
-		font-family: ModeratRegular, 'Helvetica Neue Pro', 'Helvetica Neue', Helvetica, sans-serif;
-	}
-	@mixin bold() {
-		font-family: ModeratBold, 'Helvetica Neue Pro', 'Helvetica Neue', Helvetica, sans-serif;
-	}
-
-
-
 //::: BASE FONT SETTINGS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 	body {
@@ -143,7 +131,6 @@
 	// add default sizes and vertical spacing
 
 	h1, h2, h3, h4, h5, h6, .heading {
-        @include bold();
         font-weight: normal;
 		clear: both; // this is needed for headings between floated content areas
 		line-height: 1.3;
