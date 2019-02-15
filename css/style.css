@@ -722,10 +722,10 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
     padding: 0 2em; }
     @media (min-width: 64em) {
       .home .main .row {
-        padding: 20%; } }
+        padding: 0 20%; } }
     @media (min-width: 70em) {
       .home .main .row {
-        padding: 30%; } }
+        padding: 0 30%; } }
   .home .main .condensed {
     padding: 2em; }
   .home .main .condensed:link, .home .main .condensed:visited {
