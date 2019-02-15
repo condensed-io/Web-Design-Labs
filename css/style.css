@@ -720,9 +720,12 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     padding: 0 2em; }
+    @media (min-width: 64em) {
+      .home .main .row {
+        padding: 20%; } }
     @media (min-width: 70em) {
       .home .main .row {
-        width: 50%; } }
+        padding: 50%; } }
   .home .main .condensed {
     padding: 2em; }
   .home .main .condensed:link, .home .main .condensed:visited {
