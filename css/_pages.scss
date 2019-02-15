@@ -1,0 +1,51 @@
+/*
+
+THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
+
+- Layout
+- Applying your color definitions from colors.scss
+- Applying your typography definitions from type.scss
+
+*/
+
+
+
+/* ::: HOME ::::::::::::::::::::::::::::::::::::::::: */
+
+	.home {
+
+		.mission {
+			padding-bottom: 5em;
+		}
+		.content-main {
+			padding-top: 5em;
+			margin-top: -3em;
+		}
+        .content-container {
+            margin-top: -4em;
+            padding-top: 8em;
+        }
+		.main {
+            display: flex;
+            .row {
+                flex: 1 1 auto;
+                padding: 0 2em;
+                @include breakpoint(desktop){
+                    width: 50%;
+                }
+            }
+			.condensed {
+				padding: 2em;
+			}
+			.condensed:link, .condensed:visited {
+				text-decoration: none !important; // removes underline on logo since it's a link
+			}
+			.condensed:hover, .mYm:active {
+				text-decoration: none !important; // removes underline on logo since it's a link
+			}
+		}
+		footer {
+			text-align: center;
+		}
+	}
+	

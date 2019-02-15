@@ -1,0 +1,133 @@
+//::: COLOR REFERENCE :::::::::::::::::::::::::::::
+
+// A few default color values that all sites should have
+$white: #FFF;
+$black: #000;
+$black-50: rgba(0,0,0,.50);
+
+// Define your color values here, these are placeholders
+
+$aqua: #52C6D8;
+$green: #72BF44;
+$blue: #2584C5;
+$red: #ED1C2C;
+$yellow: #FAA61A;
+$orange: #F37021;
+
+//$lighter-grey: #EEE;
+$lighter-grey: rgba(0,0,0,.07);
+$light-grey: #CCC;
+$grey: #666;
+$dark-grey: #333;
+
+
+//::: ELEMENTS :::::::::::::::::::::::::::::
+
+	// set the colors on the page
+	html {
+		background: $white;
+		color: $dark-grey;
+	}
+	body {
+		background: $white;
+		color: $dark-grey;
+	}
+	.data-table {
+		th {
+			background-color: $black;
+			color: $white;
+		}
+		td {
+			border-bottom: 1px dotted $light-grey;
+		}
+	}
+
+	// Links
+	a:link, a:visited { color: $red; }
+	a:hover, a:active, a:focus { color: $black; }
+	
+	// Show-Hide
+	.make-link {
+		color: $red;
+	}
+	.make-link:hover,
+	.make-link:focus,
+	.make-link:active {
+		color: $black;
+	}
+	
+	.indicator a {
+		background-color: $orange;
+	}
+
+	input, textarea, select {
+		background: $lighter-grey;
+		color: $dark-grey;
+	}
+
+
+
+/* ::: COLORED SECTIONS ::::::::::::::::::::::::::::::::: */
+// Colors are added based on background
+
+	
+	// AQUA AREA
+	.aqua-area {
+		@include padded-box();
+		background-color: $aqua;
+		color: $white;
+	}
+	
+	// AQUA AREA
+	.green-area {
+		@include padded-box();
+		background-color: $green;
+		color: $white;
+	}
+	
+	// LIGHT GREY AREA
+	.lighter-grey-area {
+		@include padded-box();
+		background-color: $lighter-grey;
+	}
+
+
+	// ORANGE AREA
+
+	.white-area { // need to tweak these colors, they're all messy
+		
+		background-color: $white;
+		color: $dark-grey;
+
+		a {
+			&:link, &:visited {
+				color: $orange;
+			}
+			&:hover, &:focus, &:active {
+				color: $black;
+			}
+		}
+
+		input[type='text'], input[type='email']  {
+			&:focus {
+				color: $black;
+				background-color: $black-50;
+			}
+		}
+
+		input[type='submit'], .button {
+			background-color: $black;
+			color: $orange;
+			&:hover, &:focus, &:active {
+				background-color: $black-50;
+				color: $orange;
+			}
+		}
+	}
+
+
+
+/* ::: CLASSES ::::::::::::::::::::::::::::::::: */
+
+// example of how to make classes you can use inline in your html
+	.orange { color: $orange; }
