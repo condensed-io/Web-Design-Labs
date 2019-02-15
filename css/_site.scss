@@ -11,11 +11,6 @@ THIS SHEET IS FOR SITEWIDE STYLES RELATED TO:
 
 /* ::: GENERAL ::::::::::::::::::::::::::::::::: */
 
-	// Bourbon Neat Grid Settings -- NOT SURE IF THESE ARE NECESSARY
-	.row {
-		padding: 0 4%; // default padding to keep the content from touching the edge of the site (this may cause issues, keep an eye on it)
-	}
-
 	// Customize the look of selected text -- feel free to change the colors
 	::-moz-selection { // Mozilla
        background-color: $black;
@@ -40,7 +35,6 @@ THIS SHEET IS FOR SITEWIDE STYLES RELATED TO:
 	}
 
 
-
 /* ::: MAIN NAV ::::::::::::::::::::::::::::::::: */
 	
 	.nav-main {
@@ -61,59 +55,6 @@ THIS SHEET IS FOR SITEWIDE STYLES RELATED TO:
 		}
 	}
 
-
-
-/* ::: PAGINATION :: some default styling for the PageNavi Plugin ::::::::::::::::::::::::::::::: */
-
-	.wp-pagenavi {
-		margin-top: 3em;
-	}
-	.wp-pagenavi .pages {
-	    display: none;
-	}
-	.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi span.current {
-	    background: $lighter-grey;
-	    color: $grey;
-	    border-radius: 1.3em;
-	    display: inline-block;
-	    text-decoration: none;
-	    margin: 0 .3em 12px;
-	    padding: .5em 1em;
-	    border: none;
-	}
-	.nextpostslink, .previouspostslink {
-		background: none !important;
-	}
-	.wp-pagenavi span.current {
-	    background: $light-grey;
-	    color: $white;
-	}
-	.wp-pagenavi a:hover {
-	}
-
-
-
-/* ::: COMMENTS ::::::::::::::::::::::::::::::::: */
-	
-	/*--- If you use the Facebook comments plugin this makes it responsive, if not trash this---*/
-	/*--- http://wordpress.org/plugins/facebook-comments-plugin/ ---*/
-	.fb-comments, .fb-comments span, .fb-comments iframe {
-		width: 100% !important;
-	}
-	.fb-comments { margin-top: 2em; }
-
-	
-	
-/* ::: SIDEBAR: MAIN ::::::::::::::::::::::::::::::::: */
-
-	.sidebar-main {
-		padding-bottom: 3em;
-		ul {
-			list-style-position: inside;
-		}
-	}
-	
-	
 
 /* ::: FOOTER ::::::::::::::::::::::::::::::::: */
 

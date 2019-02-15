@@ -109,7 +109,7 @@ dl dt {
 dl dd {
   margin-left: 0; }
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -426,7 +426,7 @@ a:hover, a:active, a:focus {
   -webkit-transform-style: preserve-3d;
   outline: none; }
 
-.js, .hide {
+.hide {
   display: none; }
 
 /* ::: Misc ::::::::::::::::::::::::::::::::::::::::: */
@@ -650,9 +650,6 @@ THIS SHEET IS FOR SITEWIDE STYLES RELATED TO:
 
 */
 /* ::: GENERAL ::::::::::::::::::::::::::::::::: */
-.row {
-  padding: 0 4%; }
-
 ::-moz-selection {
   background-color: #000;
   color: #FFF; }
@@ -673,45 +670,6 @@ THIS SHEET IS FOR SITEWIDE STYLES RELATED TO:
     display: inline-block;
     line-height: 1.8em;
     padding: 1em 2em; }
-
-/* ::: PAGINATION :: some default styling for the PageNavi Plugin ::::::::::::::::::::::::::::::: */
-.wp-pagenavi {
-  margin-top: 3em; }
-
-.wp-pagenavi .pages {
-  display: none; }
-
-.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi span.current {
-  background: rgba(0, 0, 0, 0.07);
-  color: #666;
-  border-radius: 1.3em;
-  display: inline-block;
-  text-decoration: none;
-  margin: 0 .3em 12px;
-  padding: .5em 1em;
-  border: none; }
-
-.nextpostslink, .previouspostslink {
-  background: none !important; }
-
-.wp-pagenavi span.current {
-  background: #CCC;
-  color: #FFF; }
-
-/* ::: COMMENTS ::::::::::::::::::::::::::::::::: */
-/*--- If you use the Facebook comments plugin this makes it responsive, if not trash this---*/
-/*--- http://wordpress.org/plugins/facebook-comments-plugin/ ---*/
-.fb-comments, .fb-comments span, .fb-comments iframe {
-  width: 100% !important; }
-
-.fb-comments {
-  margin-top: 2em; }
-
-/* ::: SIDEBAR: MAIN ::::::::::::::::::::::::::::::::: */
-.sidebar-main {
-  padding-bottom: 3em; }
-  .sidebar-main ul {
-    list-style-position: inside; }
 
 /* ::: FOOTER ::::::::::::::::::::::::::::::::: */
 .footer {
