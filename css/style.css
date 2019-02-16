@@ -732,6 +732,8 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
     @media (min-width: 80em) {
       .home .main .row {
         padding: 0 30%; } }
+    .home .main .row .logo-container {
+      width: 80%; }
   .home .main .condensed {
     padding: 2em; }
   .home .main .condensed:link, .home .main .condensed:visited {

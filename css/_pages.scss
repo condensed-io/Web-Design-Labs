@@ -42,6 +42,9 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
                 @include breakpoint(bigscreen){
                     padding: 0 30%;
                 }
+                .logo-container{
+                    width: 80%;
+                }
             }
 			.condensed {
 				padding: 2em;
