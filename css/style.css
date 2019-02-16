@@ -733,7 +733,10 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
       .home .main .row {
         padding: 0 30%; } }
     .home .main .row .logo-container {
-      width: 80%; }
+      width: 80%;
+      margin: 0 auto; }
+    .home .main .row .mission {
+      padding-top: .5em; }
   .home .main .condensed {
     padding: 2em; }
   .home .main .condensed:link, .home .main .condensed:visited {
