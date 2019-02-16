@@ -30,8 +30,14 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
             .row {
                 flex: 1 1 auto;
                 padding: 0 2em;
-                @include breakpoint(laptop){
+                @include breakpoint(mobile){
+                    padding: 0 10%;
+                }
+                @include breakpoint(tablet){
                     padding: 0 20%;
+                }
+                @include breakpoint(laptop){
+                    padding: 0 25%;
                 }
                 @include breakpoint(bigscreen){
                     padding: 0 30%;
