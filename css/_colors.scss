@@ -85,28 +85,7 @@ $dark-grey: #333;
 		background-color: $lighter-grey;
 	}
 
-
-	// Green AREA
-	.green-area {
-		@include padded-box();
-		background-color: $green;
-		color: $white;
-
-		a {
-			&:link, &:visited {
-				color: $white;
-				text-decoration: underline;
-			}
-			&:hover, &:focus, &:active {
-				color: $white;
-			}
-		}
-		
-	}
-
-
-
-	// ORANGE AREA
+	// White AREA
 
 	.white-area { // need to tweak these colors, they're all messy
 		
@@ -139,6 +118,24 @@ $dark-grey: #333;
 		}
 	}
 
+
+	// Green AREA
+	.green-area {
+		@include padded-box();
+		background-color: $green;
+		color: $white;
+
+		a {
+			&:link, &:visited {
+				color: $white !important;
+				text-decoration: underline;
+			}
+			&:hover, &:focus, &:active {
+				color: $white;
+			}
+		}
+
+	}
 
 
 /* ::: CLASSES ::::::::::::::::::::::::::::::::: */
