@@ -77,13 +77,7 @@ $dark-grey: #333;
 		background-color: $aqua;
 		color: $white;
 	}
-	
-	// AQUA AREA
-	.green-area {
-		@include padded-box();
-		background-color: $green;
-		color: $white;
-	}
+
 	
 	// LIGHT GREY AREA
 	.lighter-grey-area {
@@ -94,6 +88,10 @@ $dark-grey: #333;
 
 	// Green AREA
 	.green-area {
+		@include padded-box();
+		background-color: $green;
+		color: $white;
+
 		a {
 			&:link, &:visited {
 				color: $white;
@@ -103,6 +101,7 @@ $dark-grey: #333;
 				color: $white;
 			}
 		}
+		
 	}
 
 
