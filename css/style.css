@@ -90,7 +90,7 @@ input, textarea, select {
     color: #FFF !important;
     text-decoration: underline; }
   .green-area a:hover, .green-area a:focus, .green-area a:active {
-    color: #FFF; }
+    color: #FFF !important; }
 
 /* ::: CLASSES ::::::::::::::::::::::::::::::::: */
 .orange {
