@@ -70,6 +70,13 @@ input, textarea, select {
   border-radius: 3em;
   background-color: rgba(0, 0, 0, 0.07); }
 
+.green-area a:link, .green-area a:visited {
+  color: #FFF;
+  text-decoration: underline; }
+
+.green-area a:hover, .green-area a:focus, .green-area a:active {
+  color: #FFF; }
+
 .white-area {
   background-color: #FFF;
   color: #333; }
@@ -99,8 +106,7 @@ Base is for standard things that don't change from project to project
 
 */
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 dl dt {
   font-weight: bold;
@@ -150,8 +156,7 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -318,8 +323,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -350,8 +354,7 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -713,11 +716,9 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
 
 .home .main {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .home .main .row {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     padding: 0 2em; }
     @media (min-width: 37.5em) {

@@ -92,6 +92,21 @@ $dark-grey: #333;
 	}
 
 
+	// Green AREA
+	.green-area {
+		a {
+			&:link, &:visited {
+				color: $white;
+				text-decoration: underline;
+			}
+			&:hover, &:focus, &:active {
+				color: $white;
+			}
+		}
+	}
+
+
+
 	// ORANGE AREA
 
 	.white-area { // need to tweak these colors, they're all messy
